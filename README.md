@@ -98,6 +98,8 @@ Incorporating an Ultrasonic sensor and an IR sensor to act as secondary spatial 
 
 ### 6.1 Concept Architecture / Schematic
 
-![Concept Architecture](images/image_1.png)
+![Concept Architecture](images/Concept_Architecture.png)
 
-*(Note: Make sure your image file is named `image_1.png` and placed inside an `images` folder in your repository for the link to display correctly.)*
+### 6.2 Labeled Build Sketch/ Architecture/ Flow diagram/ Algorithm
+
+![Sketch](images/Sketch.png)
