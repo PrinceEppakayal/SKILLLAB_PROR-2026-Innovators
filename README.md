@@ -103,3 +103,7 @@ Incorporating an Ultrasonic sensor and an IR sensor to act as secondary spatial 
 ### 6.2 Labeled Build Sketch/ Architecture/ Flow diagram/ Algorithm
 
 ![Sketch](images/Sketch.png)
+
+### 6.3 6.3 Approximate Dimensions
+
+* Not Applicable
