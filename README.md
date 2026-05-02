@@ -357,4 +357,4 @@ The final version of our project is a fully functional Autonomous Paint Booth Sa
 
 The system uses a state-machine-based logic to classify conditions into optimal, suboptimal, maintenance, and emergency states. Critical events such as gas leakage trigger an interrupt-based immediate shutdown, ensuring high safety. The system also provides real-time feedback through a PC terminal and visual indicators, making it reliable, responsive, and suitable for industrial safety applications.
 
-![Final Outcome](images/implemetation.png)
+![Final Outcome](images/implementation.png)
