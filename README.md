@@ -102,7 +102,7 @@ Incorporating an Ultrasonic sensor and an IR sensor to act as secondary spatial 
 
 ### 6.2 Labeled Build Sketch/ Architecture/ Flow diagram/ Algorithm
 
-![Sketch](images/Sketch.png)
+![Sketch](images/architemb.png)
 
 ### 6.3 Approximate Dimensions
 
@@ -174,7 +174,7 @@ Insert a hand-drawn or software-made circuit diagram.
 
 ## 8.3 Code Flowchart
 
-![Code Flowchart](images/image_3.png)
+![Code Flowchart](images/flow_emb.png)
 
 ---
 
@@ -195,15 +195,15 @@ Insert a hand-drawn or software-made circuit diagram.
 * **MicroBlaze Processor:** MicroBlaze is a soft-core processor implemented inside the FPGA, enabling embedded software execution. It allows flexible integration of peripherals through AXI, combining hardware speed with software control.
 * **MPU6050 Sensor:** The MPU6050 measures acceleration and vibration in three axes using I2C communication. It helps detect abnormal mechanical behavior, ensuring system stability and preventive maintenance.
 
-![Material Justification 1](images/image_4.png)
-![Material Justification 2](images/image_5.png)
+![Material Justification 1](images/boolean.png)
+![Material Justification 2](images/mpu.png)
 
 * **MQ135 Gas Sensor:** The MQ135 detects harmful gases and provides a fast digital output for immediate response. Its interrupt capability makes it suitable for real-time emergency detection and system shutdown.
 * **DHT11 Sensor:** The DHT11 measures temperature and humidity using a simple single-wire interface. It ensures environmental conditions remain within the required range for optimal system performance.
 * **AXI GPIO:** AXI GPIO enables digital communication between the FPGA and external sensors or devices. It provides flexible input/output control for components like DHT11 and MQ135.
 
-![Material Justification 3](images/image_6.png)
-![Material Justification 4](images/image_7.png)
+![Material Justification 3](images/mq135.png)
+![Material Justification 4](images/temp.png)
 
 * **AXI IIC:** AXI IIC is used for I2C communication with sensors like MPU6050. It simplifies data transfer and reduces processor overhead by handling communication at the hardware level.
 * **AXI Interrupt Controller:** The interrupt controller manages multiple interrupt signals and ensures quick response to critical events. It is essential for handling emergency conditions like gas detection efficiently.
@@ -357,4 +357,4 @@ The final version of our project is a fully functional Autonomous Paint Booth Sa
 
 The system uses a state-machine-based logic to classify conditions into optimal, suboptimal, maintenance, and emergency states. Critical events such as gas leakage trigger an interrupt-based immediate shutdown, ensuring high safety. The system also provides real-time feedback through a PC terminal and visual indicators, making it reliable, responsive, and suitable for industrial safety applications.
 
-![Final Outcome](images/image_8.png)
+![Final Outcome](images/implemetation.png)
